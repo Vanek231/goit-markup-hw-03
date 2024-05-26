@@ -100,7 +100,7 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
     color: inherit;
-
+    padding: 24px 0;
 }
 
 .header-menu-link:hover, 
