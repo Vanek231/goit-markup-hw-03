@@ -12,6 +12,10 @@ ul, ol {
 
 }
 
+img {
+    display: block;
+}
+
 a {
     text-decoration: none;
 }
@@ -36,9 +40,16 @@ button {
 .header {
     padding-top: 26px;
     padding-bottom: 26px;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
 }
 
 .header-nav {
+    display: flex;
+    align-items: center;
 }
 
 .header-logo { 
@@ -49,6 +60,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5; 
+    margin-right: 76px;
 }
 
 .header-logo-span {
@@ -61,6 +73,8 @@ button {
 }
 
 .header-menu-list {
+    display: flex;
+    gap: 40px;
 }
 
 .header-menu-item { 
@@ -99,8 +113,11 @@ button {
 }
 
 
-.header-soc-list { 
+.header-soc-list {
+    display: flex;
+    gap: 40px;
 }
+
 
 .header-soc-item {
 }
