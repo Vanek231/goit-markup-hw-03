@@ -144,8 +144,7 @@ button {
 /* advantages */
 .main-section-title {
     background: #2e2f42;
-    padding-top: 192px;
-    padding-bottom: 188px;
+    padding: 188px 0;
 }
 
 
@@ -161,6 +160,7 @@ button {
     margin-left: auto; 
     margin-bottom: 48px;
 }
+
 .main-action-button {
     display: block;
     font-family: "Roboto", sans-serif;
@@ -173,6 +173,10 @@ button {
     cursor: pointer;
     margin-right: auto;
     margin-left: auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .main-action-button:hover,
@@ -185,19 +189,29 @@ button {
     padding-bottom: 120px;
 }
 
+.container-order-studio {
+}
 
-
-.main-title-advantages {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .advantages-list {
+    display: flex;
+    gap: 24px;
 }
 
 .advantages-item {
+    width: calc((100% - 72px) / 4);
 }
 
 .advantages-subtitle {
@@ -206,6 +220,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .advantages-paragraf {
     font-weight: 400;
@@ -229,14 +244,27 @@ button {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
+
 .our-team-list {
+    display: flex;
+    gap: 24px;
 }
+
+.our-team-list-container {
+    padding: 32px 0;
+}
+
 .our-team-item {
     background: #fff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
+
 .our-team-item-img {
 }
+
 .our-team-title {
     font-weight: 500;
     font-size: 20px;
@@ -244,13 +272,17 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
+
 .our-team-paragraf {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    text-align: center;
 }
 
 /* Our Portfolio */
