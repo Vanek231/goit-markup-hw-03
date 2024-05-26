@@ -4,17 +4,38 @@ body {
     background-color:  #FFFFFF;
 }
 
-ul {
+ul, ol {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+
 }
 
 a {
     text-decoration: none;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button {
+    cursor: pointer
+}
 
 /* HEADER */
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 .header {
+    padding-top: 26px;
+    padding-bottom: 26px;
 }
 
 .header-nav {
@@ -106,7 +127,10 @@ a {
 /* advantages */
 .main-section-title {
     background: #2e2f42;
+    padding-top: 192px;
+    padding-bottom: 188px;
 }
+
 
 .main-title {
     font-weight: 700;
@@ -118,8 +142,10 @@ a {
     max-width: 496px;
     margin-right: auto; 
     margin-left: auto; 
+    margin-bottom: 48px;
 }
 .main-action-button {
+    display: block;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -138,7 +164,11 @@ a {
 }
 
 .main-order-studio {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
+
+
 
 .main-title-advantages {
     font-weight: 500;
@@ -171,6 +201,8 @@ a {
 /* OUR TEAM */
 .main-section-our-team {
     background: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .main-title-our-team {
     font-weight: 700;
@@ -207,6 +239,8 @@ a {
 /* Our Portfolio */
 
 .main-section-our-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .main-title-our-portfolio {
     font-weight: 700;
@@ -246,6 +280,11 @@ a {
 /* FOOTER */
 .footer {
     background: #2e2f42;
+}
+
+.footer-container {
+    padding-top: 102px;
+    padding-bottom: 102px;
 }
 
 .footer-logo {
