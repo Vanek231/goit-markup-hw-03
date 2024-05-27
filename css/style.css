@@ -9,7 +9,7 @@ ul, ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
-
+    margin: 0;
 }
 
 img {
@@ -316,6 +316,7 @@ button {
     column-gap: 24px;
     row-gap: 48px;
 }
+
 .our-portfolio-item {
     background: #fff;
     width: calc((100% - 48px) / 3);
